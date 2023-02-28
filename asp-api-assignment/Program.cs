@@ -1,3 +1,5 @@
+using asp_api_assignment;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -21,5 +23,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// Assignment 2 implementation using Minimal API style
+app.MapPost("/sum", (List<string?> values) => SumStringArray.calculateSum(values)); 
 
 app.Run();
