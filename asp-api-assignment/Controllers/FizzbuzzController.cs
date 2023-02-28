@@ -6,10 +6,6 @@ namespace asp_api_assignment.Controllers
     [Route("[controller]")]
     public class FizzbuzzController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
 
         private readonly ILogger<FizzbuzzController> _logger;
 
@@ -21,6 +17,7 @@ namespace asp_api_assignment.Controllers
         [HttpGet(Name = "fizzbuzz")]
         public FizzbuzzResult Get()
         {
+            // Assignment 1 implementation with Controller
             List<int> range = new List<int>(Enumerable.Range(0, 31));
             List<string> mappedRange = range.ConvertAll((number) =>
             {
