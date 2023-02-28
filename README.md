@@ -14,7 +14,7 @@ This is a project created to fullfil assignment for one of the interview stages.
 - OpenAPI/Swagger should be use for the API
 
 ## TODO / Assignments
-1. [_] - Create an endpoint "/fizzbuzz" that returns a list
+1. [X] - Create an endpoint "/fizzbuzz" that returns a list
 	- Assignment description was hard to understand, so there will be plenty of assumptions
 	- Endpoint name - /fizzbuzz
 	- Endpoint method - Assumption! Absence of input points that it's a GET request
@@ -25,7 +25,7 @@ This is a project created to fullfil assignment for one of the interview stages.
 			- If it is dividable by 5, show “buzz”. 
 			- Otherwise, show the number.
 		- Assumption! Assignment mentions input only in an output, but not what that input should be, so I am assuming that's a mistake in description
-2. [_] - Create an endpoint
+2. [X] - Create an endpoint
 	- Assignment description: take in an array of values and make a sum of it
 	- Example Input with Example Output
 		- Input: ["42", "1e3", "1.222", null, "-12"]
@@ -39,7 +39,7 @@ This is a project created to fullfil assignment for one of the interview stages.
 		- Based on example floating devided at comma, not period, because "1.222" = 1222, not 1 + 0.222
 		- Assumption! Null will be converted to zero
 	- Output - a sum of converted string returned as a string
-3. [_] - Create an endpoint "/runningtotal" with persisting collection
+3. [X] - Create an endpoint "/runningtotal" with persisting collection
 	- Assignment description: Return a sum of last 3 submitted numbers. Body should consist of only number
 	- Example Inputs -> Example Output
 		- 4 -> 4
