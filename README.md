@@ -5,8 +5,8 @@ This is a project created to fullfil assignment for one of the interview stages.
 
 ## Assignment requirements
 - Use LTS version of dotnet
-	- Assumption! .net = .net core
-	- At the moment of project creation (28.02.2023) it's .net core v6.0.14
+	- Assumption! .net = .net (not core)
+	- At the moment of project creation (28.02.2023) it's .net v6.0.14
 - Should be in 1 solution
 - Must be a git repository
 - Use Controller for the different assignment
@@ -21,8 +21,8 @@ This is a project created to fullfil assignment for one of the interview stages.
 	- Input - none described, therefore assumption it's not present
 	- Output - JSON object/response with "input value and the result"
 		- Example result: a newline delimited list, from 0 to 30. 
-			- If the value is divisible by 3, show ìfizzî 
-			- If it is dividable by 5, show ìbuzzî. 
+			- If the value is divisible by 3, show ‚Äúfizz‚Äù 
+			- If it is dividable by 5, show ‚Äúbuzz‚Äù. 
 			- Otherwise, show the number.
 		- Assumption! Assignment mentions input only in an output, but not what that input should be, so I am assuming that's a mistake in description
 2. [X] - Create an endpoint
